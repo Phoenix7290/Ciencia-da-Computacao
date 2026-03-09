@@ -1,0 +1,14 @@
+Resultados da Tabela Hash:
+{1: './dir_1/sub_7/file_1086.txt', 100: './dir_1/sub_11/file_869.txt', 1000: './file_428.txt', 5000: './file_4428.txt', 16000: './dir_0/sub_9/file_581.txt'}
+Tempo: 0.000003s | Memoria: 589912 bytes
+Adicionar/Remover: Tempo 0.000714s | Memoria Inicial 589912 -> Final 589912
+
+Resultados da Pilha:
+{16000: './dir_0/sub_9/file_581.txt', 5000: './file_4428.txt', 1000: './file_428.txt', 100: './dir_1/sub_11/file_869.txt', 1: './dir_1/sub_7/file_1086.txt'}
+Tempo: 0.009346s | Memoria: 136632 bytes
+Adicionar/Remover: Tempo 0.000003s | Memoria Inicial 136632 -> Final 136632
+
+Resultados da Fila:
+{1: './dir_1/sub_7/file_1086.txt', 100: './dir_1/sub_11/file_869.txt', 1000: './file_428.txt', 5000: './file_4428.txt', 16000: './dir_0/sub_9/file_581.txt'}
+Tempo: 0.008915s | Memoria: 132760 bytes
+Adicionar/Remover: Tempo 0.000002s | Memoria Inicial 132760 -> Final 132760
