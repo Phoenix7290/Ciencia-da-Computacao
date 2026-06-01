@@ -92,13 +92,13 @@ int main(void) {
                testes[i].ip,
                testes[i].esperado,
                obtido,
-               ok ? "✓ OK  " : "✗ FAIL",
+               ok ? " OK  " : " FAIL",
                testes[i].explicacao);
     }
 
     printf("\n  Resultado: %d/%d corretos %s\n\n",
            acertos, n_testes,
-           acertos == n_testes ? "— TODOS PASSARAM ✓" : "— HÁ FALHAS ✗");
+           acertos == n_testes ? "— TODOS PASSARAM " : "— HÁ FALHAS ");
 
     
     printf(" [4/4] Benchmark de Performance \n\n");
