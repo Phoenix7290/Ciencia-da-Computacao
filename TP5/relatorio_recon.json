@@ -1,0 +1,96 @@
+{
+    "dnsrecon": {
+        "MX": [
+            "[*] \t MX ASPMX2.GOOGLEMAIL.COM 192.178.223.27",
+            "[*] \t MX ALT1.ASPMX.L.GOOGLE.COM 192.178.223.27",
+            "[*] \t MX ASPMX.L.GOOGLE.COM 142.251.0.26",
+            "[*] \t MX ASPMX3.GOOGLEMAIL.COM 172.253.157.27",
+            "[*] \t MX ALT2.ASPMX.L.GOOGLE.COM 172.253.157.27",
+            "[*] \t MX ASPMX5.GOOGLEMAIL.COM 192.178.213.26",
+            "[*] \t MX ASPMX4.GOOGLEMAIL.COM 142.250.102.27",
+            "[*] \t MX ASPMX2.GOOGLEMAIL.COM 2a00:1450:4009:c0f::1a",
+            "[*] \t MX ALT1.ASPMX.L.GOOGLE.COM 2a00:1450:4009:c0f::1a",
+            "[*] \t MX ASPMX.L.GOOGLE.COM 2800:3f0:4003:c01::1b",
+            "[*] \t MX ASPMX3.GOOGLEMAIL.COM 2a00:1450:400c:c23::1a",
+            "[*] \t MX ALT2.ASPMX.L.GOOGLE.COM 2a00:1450:400c:c23::1b",
+            "[*] \t MX ASPMX5.GOOGLEMAIL.COM 2a00:1450:4013:c1e::1b",
+            "[*] \t MX ASPMX4.GOOGLEMAIL.COM 2a00:1450:4025:402::1b"
+        ],
+        "NS": [
+            "[*] std: Performing General Enumeration against: zonetransfer.me...",
+            "[-] All nameservers failed to answer the DNSSEC query for zonetransfer.me",
+            "[*] \t SOA nsztm1.digi.ninja 81.4.108.41",
+            "[*] \t NS nsztm1.digi.ninja 81.4.108.41",
+            "[*] \t NS nsztm2.digi.ninja 5.196.105.10",
+            "[*] \t A zonetransfer.me 5.196.105.14",
+            "[*] \t TXT zonetransfer.me google-site-verification=tyP28J7JAUHA9fw2sHXMgcCC0I6XBmmoVi04VlMewxA",
+            "[+] \t SRV _sip._tcp.zonetransfer.me www.zonetransfer.me 5.196.105.14 5060"
+        ],
+        "A": [
+            "[*] \t A zonetransfer.me 5.196.105.14"
+        ],
+        "TXT": [
+            "[*] \t TXT zonetransfer.me google-site-verification=tyP28J7JAUHA9fw2sHXMgcCC0I6XBmmoVi04VlMewxA"
+        ],
+        "subdominios": [
+            "[-] No valid dictionary files have been specified or found within the tool"
+        ]
+    },
+    "nmap": {
+        "45.33.32.156": {
+            "estado": "up",
+            "protocolos": {
+                "tcp": [
+                    {
+                        "porta": 22,
+                        "estado": "open",
+                        "servico": "ssh",
+                        "versao": "6.6.1p1 Ubuntu 2ubuntu2.13"
+                    },
+                    {
+                        "porta": 25,
+                        "estado": "filtered",
+                        "servico": "smtp",
+                        "versao": ""
+                    },
+                    {
+                        "porta": 80,
+                        "estado": "open",
+                        "servico": "http",
+                        "versao": "2.4.7"
+                    },
+                    {
+                        "porta": 111,
+                        "estado": "filtered",
+                        "servico": "rpcbind",
+                        "versao": ""
+                    },
+                    {
+                        "porta": 135,
+                        "estado": "filtered",
+                        "servico": "msrpc",
+                        "versao": ""
+                    },
+                    {
+                        "porta": 139,
+                        "estado": "filtered",
+                        "servico": "netbios-ssn",
+                        "versao": ""
+                    },
+                    {
+                        "porta": 389,
+                        "estado": "filtered",
+                        "servico": "ldap",
+                        "versao": ""
+                    },
+                    {
+                        "porta": 445,
+                        "estado": "filtered",
+                        "servico": "microsoft-ds",
+                        "versao": ""
+                    }
+                ]
+            }
+        }
+    }
+}
